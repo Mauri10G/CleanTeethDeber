@@ -30,8 +30,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,14 +44,10 @@
               "RelativeDocumentMoniker": "Clean Teeth.Domain\\Entities\\Appointment.cs",
               "ToolTip": "C:\\Users\\oguev\\OneDrive\\Documentos\\Patrones de Software\\CleanTeeth\\Clean Teeth.Domain\\Entities\\Appointment.cs",
               "RelativeToolTip": "Clean Teeth.Domain\\Entities\\Appointment.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBcAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T03:49:10.558Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Clean Teeth.Domain\\Enums\\AppointmentType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T03:48:33.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T03:48:33.867Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "Clean Teeth.Domain\\Entities\\Dentist.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T03:46:18.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T03:46:18.434Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "Clean Teeth.Domain\\Value Objects\\Specialty.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T03:43:49.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T03:43:49.983Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "Clean Teeth.Domain\\Value Objects\\TimeInterval.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T01:56:32.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T01:56:32.18Z"
             }
           ]
         }
