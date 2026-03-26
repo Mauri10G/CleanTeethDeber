@@ -16,6 +16,7 @@ public class Appointment
     public Patient? Patient { get; private set; }
     public Dentist? Dentist { get; private set; }
     public DentalOffice? DentalOffice { get; private set; }
+    public AppointmentType Type { get; private set; } // Tipo de cita
     public Appointment(Guid patientId, Guid dentistId, Guid dentalOfficeId , TimeInterval timeInterval)
     {
         if(timeInterval.Start < DateTime.UtcNow)

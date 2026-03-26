@@ -9,6 +9,7 @@ public class Dentist
     public Guid Id { get; private set; }
     public string Name { get; private set; } = null!;
     public Email Email { get; private set; } = null!;
+    public List<Specialty> Specialties { get; set; } = new(); //Agg Especialidad
     public Dentist(string name, Email email)
     {
         if (string.IsNullOrWhiteSpace(name))

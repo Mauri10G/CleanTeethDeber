@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\oguev\\OneDrive\\Documentos\\Patrones de Software\\CleanTeeth\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CBA3DA5A-40EC-D4AC-E582-6CCF1CBEAB51}|Clean Teeth.Domain\\CleanTeeth.Domain.csproj|c:\\users\\oguev\\onedrive\\documentos\\patrones de software\\cleanteeth\\clean teeth.domain\\enums\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA3DA5A-40EC-D4AC-E582-6CCF1CBEAB51}|Clean Teeth.Domain\\CleanTeeth.Domain.csproj|solutionrelative:clean teeth.domain\\enums\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA3DA5A-40EC-D4AC-E582-6CCF1CBEAB51}|Clean Teeth.Domain\\CleanTeeth.Domain.csproj|c:\\users\\oguev\\onedrive\\documentos\\patrones de software\\cleanteeth\\clean teeth.domain\\exceptions\\timeinterval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA3DA5A-40EC-D4AC-E582-6CCF1CBEAB51}|Clean Teeth.Domain\\CleanTeeth.Domain.csproj|solutionrelative:clean teeth.domain\\exceptions\\timeinterval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CBA3DA5A-40EC-D4AC-E582-6CCF1CBEAB51}|Clean Teeth.Domain\\CleanTeeth.Domain.csproj|c:\\users\\oguev\\onedrive\\documentos\\patrones de software\\cleanteeth\\clean teeth.domain\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBA3DA5A-40EC-D4AC-E582-6CCF1CBEAB51}|Clean Teeth.Domain\\CleanTeeth.Domain.csproj|solutionrelative:clean teeth.domain\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CBA3DA5A-40EC-D4AC-E582-6CCF1CBEAB51}|Clean Teeth.Domain\\CleanTeeth.Domain.csproj|c:\\users\\oguev\\onedrive\\documentos\\patrones de software\\cleanteeth\\clean teeth.domain\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBA3DA5A-40EC-D4AC-E582-6CCF1CBEAB51}|Clean Teeth.Domain\\CleanTeeth.Domain.csproj|solutionrelative:clean teeth.domain\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBA3DA5A-40EC-D4AC-E582-6CCF1CBEAB51}|Clean Teeth.Domain\\CleanTeeth.Domain.csproj|c:\\users\\oguev\\onedrive\\documentos\\patrones de software\\cleanteeth\\clean teeth.domain\\enums\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBA3DA5A-40EC-D4AC-E582-6CCF1CBEAB51}|Clean Teeth.Domain\\CleanTeeth.Domain.csproj|solutionrelative:clean teeth.domain\\enums\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBA3DA5A-40EC-D4AC-E582-6CCF1CBEAB51}|Clean Teeth.Domain\\CleanTeeth.Domain.csproj|c:\\users\\oguev\\onedrive\\documentos\\patrones de software\\cleanteeth\\clean teeth.domain\\value objects\\timeinterval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "TimeInterval.cs",
+              "DocumentMoniker": "C:\\Users\\oguev\\OneDrive\\Documentos\\Patrones de Software\\CleanTeeth\\Clean Teeth.Domain\\Exceptions\\TimeInterval.cs",
+              "RelativeDocumentMoniker": "Clean Teeth.Domain\\Exceptions\\TimeInterval.cs",
+              "ToolTip": "C:\\Users\\oguev\\OneDrive\\Documentos\\Patrones de Software\\CleanTeeth\\Clean Teeth.Domain\\Exceptions\\TimeInterval.cs",
+              "RelativeToolTip": "Clean Teeth.Domain\\Exceptions\\TimeInterval.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T03:02:08.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Appointment.cs",
               "DocumentMoniker": "C:\\Users\\oguev\\OneDrive\\Documentos\\Patrones de Software\\CleanTeeth\\Clean Teeth.Domain\\Entities\\Appointment.cs",
               "RelativeDocumentMoniker": "Clean Teeth.Domain\\Entities\\Appointment.cs",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DentalOffice.cs",
               "DocumentMoniker": "C:\\Users\\oguev\\OneDrive\\Documentos\\Patrones de Software\\CleanTeeth\\Clean Teeth.Domain\\Entities\\DentalOffice.cs",
               "RelativeDocumentMoniker": "Clean Teeth.Domain\\Entities\\DentalOffice.cs",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Dentist.cs",
               "DocumentMoniker": "C:\\Users\\oguev\\OneDrive\\Documentos\\Patrones de Software\\CleanTeeth\\Clean Teeth.Domain\\Entities\\Dentist.cs",
               "RelativeDocumentMoniker": "Clean Teeth.Domain\\Entities\\Dentist.cs",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Patient.cs",
               "DocumentMoniker": "C:\\Users\\oguev\\OneDrive\\Documentos\\Patrones de Software\\CleanTeeth\\Clean Teeth.Domain\\Entities\\Patient.cs",
               "RelativeDocumentMoniker": "Clean Teeth.Domain\\Entities\\Patient.cs",
@@ -99,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "AppointmentStatus.cs",
               "DocumentMoniker": "C:\\Users\\oguev\\OneDrive\\Documentos\\Patrones de Software\\CleanTeeth\\Clean Teeth.Domain\\Enums\\AppointmentStatus.cs",
               "RelativeDocumentMoniker": "Clean Teeth.Domain\\Enums\\AppointmentStatus.cs",
@@ -107,11 +124,12 @@
               "RelativeToolTip": "Clean Teeth.Domain\\Enums\\AppointmentStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T01:59:34.837Z"
+              "WhenOpened": "2026-03-24T01:59:34.837Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TimeInterval.cs",
               "DocumentMoniker": "C:\\Users\\oguev\\OneDrive\\Documentos\\Patrones de Software\\CleanTeeth\\Clean Teeth.Domain\\Value Objects\\TimeInterval.cs",
               "RelativeDocumentMoniker": "Clean Teeth.Domain\\Value Objects\\TimeInterval.cs",
@@ -123,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Email.cs",
               "DocumentMoniker": "C:\\Users\\oguev\\OneDrive\\Documentos\\Patrones de Software\\CleanTeeth\\Clean Teeth.Domain\\Value Objects\\Email.cs",
               "RelativeDocumentMoniker": "Clean Teeth.Domain\\Value Objects\\Email.cs",
@@ -135,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "BusinessRuleException.cs",
               "DocumentMoniker": "C:\\Users\\oguev\\OneDrive\\Documentos\\Patrones de Software\\CleanTeeth\\Clean Teeth.Domain\\Exceptions\\BusinessRuleException.cs",
               "RelativeDocumentMoniker": "Clean Teeth.Domain\\Exceptions\\BusinessRuleException.cs",
