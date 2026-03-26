@@ -1,0 +1,53 @@
+﻿
+using Clean_Teeth.Domain.Enums;
+using Clean_Teeth.Domain.Value_Objects;
+using CleanTeeth.Domain.Exceptions;
+
+namespace Clean_Teeth.Domain.Entities;
+
+public class Appointment
+{
+    public Guid Id { get; private set; }
+    public Guid PatientId { get; private set; }
+    public Guid DentistId { get; private set; }
+    public Guid DentalOfficeId { get; private set; }
+    public AppointmentStatus Status { get; private set;}
+    public TimeInterval TimeInterval { get; private set;}
+    public Patient? Patient { get; private set; }
+    public Dentist? Dentist { get; private set; }
+    public DentalOffice? DentalOffice { get; private set; }
+    public Appointment(Guid patientId, Guid dentistId, Guid dentalOfficeId , TimeInterval timeInterval)
+    {
+        if(timeInterval.Start < DateTime.UtcNow)
+        {
+            throw new BusinessRuleException($"La fecha de inicio no puede ser anterior a la fecha actual");
+        }
+
+        PatientId = patientId;
+        DentistId = dentistId;
+        DentalOfficeId = dentalOfficeId;
+        TimeInterval = timeInterval;
+        Status = AppointmentStatus.Scheduled;
+        Id = Guid.CreateVersion7();
+    }
+
+    public void Cancel()
+    {
+        if(Status != AppointmentStatus.Scheduled)
+        {
+            throw new BusinessRuleException($"Solo se puede cancelar una cita programada");
+        }
+
+        Status = AppointmentStatus.Cancelled;
+    }
+
+    public void Complete()
+    {
+        if (Status != AppointmentStatus.Scheduled) 
+        {
+            throw new BusinessRuleException($"Solo se puede completar una cita programada");
+        }
+        Status = AppointmentStatus.Completed;
+    }
+
+}

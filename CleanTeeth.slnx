@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="Clean Teeth.Domain/CleanTeeth.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infraestructure/" />
+  <Folder Name="/Tests/" />
+  <Folder Name="/UI/" />
+  <Folder Name="/UI/API/" />
+</Solution>
