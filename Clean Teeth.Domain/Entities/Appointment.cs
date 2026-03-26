@@ -47,7 +47,13 @@ public class Appointment
 
     public void Cancel()
     {
-        if(Status != AppointmentStatus.Scheduled)
+        // No se puede cancelar si faltan menos de 24 horas
+        if (DateTime.UtcNow.AddHours(24) > TimeInterval.Start)
+        {
+            throw new BusinessRuleException("No se puede cancelar con menos de 24 horas de antelación.");
+        }
+
+        if (Status != AppointmentStatus.Scheduled)
         {
             throw new BusinessRuleException($"Solo se puede cancelar una cita programada");
         }
@@ -62,6 +68,19 @@ public class Appointment
             throw new BusinessRuleException($"Solo se puede completar una cita programada");
         }
         Status = AppointmentStatus.Completed;
+    }
+
+    //Reprogramacion 
+    public void Reschedule(TimeInterval newInterval)
+    {
+        // No se puede reprogramar si faltan menos de 24 horas
+        if (DateTime.UtcNow.AddHours(24) > TimeInterval.Start)
+        {
+            throw new BusinessRuleException("No se puede reprogramar con menos de 24 horas de antelacion");
+        }
+
+        TimeInterval = newInterval;
+        Status = AppointmentStatus.Rescheduled;
     }
 
 }

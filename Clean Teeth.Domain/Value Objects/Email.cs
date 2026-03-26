@@ -1,5 +1,6 @@
 ﻿
 using CleanTeeth.Domain.Exceptions;
+using System.Text.RegularExpressions;
 
 namespace Clean_Teeth.Domain.Value_Objects;
 public class Email
@@ -8,17 +9,12 @@ public class Email
 
     public Email(string email)
     {
-        if (String.IsNullOrWhiteSpace(email))
+        //Formato valido de email
+        var emailRegex = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+        if (!Regex.IsMatch(email, emailRegex))
         {
-            throw new BusinessRuleException($"The {nameof(email)} is required");
+            throw new BusinessRuleException("El formato del correo electrónico no es válido");
         }
-
-        if (!email.Contains("@"))
-        {
-            throw new BusinessRuleException($"The {nameof(email)} is not valid");
-        }
-
-        Value = email;
     }
 
 }
